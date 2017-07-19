@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>Treetog-I-Floppy-Small.ico</file>
+        <file>open-file-icon.png</file>
+        <file>myapp.jpg</file>
+        <file>myapp_IGL_icon.ico</file>
+        <file>myapp_NIQ_icon.ico</file>
+        <file>myapp_0Td_icon.ico</file>
+    </qresource>
+</RCC>
