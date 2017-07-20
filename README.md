@@ -12,11 +12,13 @@ Plotter is a QT based application written in C++ which helps in analyzing the da
       - Select File->Open File 
          **or**
        - Click on ![OpenFile](/images/OpenFile.jpg?raw=true "OpenFile") 
+       
    File box shows the location of the file that have been selected.
    Status box will says **DATA COLLECTED** if all the data is collected properly(including the separator symbols).
    
    
 2. If the data shown in the table are all numbers than skip this step but if table contains *symbols*(from the txt files) than put all those separators in the separarator box and click **REFRESH Button** and check if the data in table is proper(ie, numbers).
+
     Status box will says **REFRESH DONE**
       **Notes:**
       - If the data have number are negative or have floating point **-** or **.** symbols than put **'- '**(for -) and **'. '** in the separator box.
