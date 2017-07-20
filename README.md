@@ -35,4 +35,4 @@ Plotter is a QT based application written in C++ which helps in analyzing the da
       - Click on ![SaveImage](/images/saveimage-1.png?raw=true "Save Image") and open the location to save the image.
       - Graph of SampleData/data.txt with separator '- ', '/', '',',','.' 
       
-       ![SampleGraph](/images/Graph.png?raw=true "Graph")  
+      ![SampleGraph](/images/Graph.png?raw=true "Graph")  
