@@ -137,8 +137,11 @@ void MainWindow::showplot()
     chart->createDefaultAxes();
     QString vsplot;
     vsplot=data[0].at(0)+" vs ";
-    for(int j=1;j<columns;j++)
-        vsplot+=" and "+data[0].at(j);
+    for(int j=1;j<columns;j++){
+        if(j!=1)
+            vsplot+=" and ";
+        vsplot+=data[0].at(j);
+    }
     chart->setTitle("Graph "+vsplot);
     chartView = new QChartView(chart);
     chartView->setRenderHint(QPainter::Antialiasing);
