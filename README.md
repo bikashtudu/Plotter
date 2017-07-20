@@ -11,4 +11,4 @@ Intructions:
 1. Open a File
       - Select File->Open File 
          or
-       - Click on ![OpenFile](/images/OpenFile.png?raw=true "OpenFile") )
+       - Click on ![OpenFile](/images/OpenFile.jpg?raw=true "OpenFile") 
