@@ -7,7 +7,7 @@ Plotter is a QT based application written in C++ which helps in analyzing the da
 ### Screenshot of UI
 ![PlotterSnapShot](/images/PlotterSnapShot.jpg?raw=true "ScreenShot of UI")
 
-Intructions:
+### Intructions:
 1. Open a File
       - Select File->Open File 
          **or**
