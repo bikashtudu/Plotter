@@ -20,6 +20,7 @@ Plotter is a QT based application written in C++ which helps in analyzing the da
 2. If the data shown in the table are all numbers than skip this step but if table contains *symbols*(from the txt files) than put all those separators in the separarator box and click **REFRESH Button** and check if the data in table is proper(ie, numbers).
 
     Status box will says **REFRESH DONE**
+    
       **Notes:**
       - If the data have number are negative or have floating point **-** or **.** symbols than put **'- '**(for -) and **'. '** in the separator box.
       - Refresh Button can be used anytime to refresh the data from the txt file or to make use separators. 
