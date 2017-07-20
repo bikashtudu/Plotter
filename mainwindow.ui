@@ -203,7 +203,7 @@
   <action name="actionOpen_File">
    <property name="icon">
     <iconset resource="resources.qrc">
-     <normaloff>:/images/open-file-icon.png</normaloff>:/images/open-file-icon.png</iconset>
+     <normaloff>:/images/OpenFile.png</normaloff>:/images/OpenFile.png</iconset>
    </property>
    <property name="text">
     <string>Open File</string>
@@ -212,7 +212,7 @@
   <action name="actionSave_Image">
    <property name="icon">
     <iconset resource="resources.qrc">
-     <normaloff>:/images/Treetog-I-Floppy-Small.ico</normaloff>:/images/Treetog-I-Floppy-Small.ico</iconset>
+     <normaloff>:/images/saveimage.png</normaloff>:/images/saveimage.png</iconset>
    </property>
    <property name="text">
     <string>Save Image</string>
