@@ -11,7 +11,7 @@ Plotter is a QT based application written in C++ which helps in analyzing the da
 1. Open a File
       - Select File->Open File 
          **or**
-       - Click on ![OpenFile](/images/OpenFile.jpg?raw=true "OpenFile") 
+       - Click on ![OpenFile](/images/OpenFile.jpg?raw=true "OpenFile") and select the data file.
        
    File box shows the location of the file that have been selected.
    Status box will says **DATA COLLECTED** if all the data is collected properly(including the separator symbols).
@@ -32,4 +32,4 @@ Plotter is a QT based application written in C++ which helps in analyzing the da
 4. To save the plotted graph
       - Select File-> Save Image
          **or**
-      - Click on ![SaveImage](/images/saveimage-1.png?raw=true "Save Image") 
+      - Click on ![SaveImage](/images/saveimage-1.png?raw=true "Save Image") and open the location to save the image.
