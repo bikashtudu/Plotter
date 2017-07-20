@@ -10,5 +10,5 @@ Plotter is a QT based application written in C++ which helps in analyzing the da
 Intructions:
 1. Open a File
       - Select File->Open File 
-         or
+         **or**
        - Click on ![OpenFile](/images/OpenFile.jpg?raw=true "OpenFile") 
