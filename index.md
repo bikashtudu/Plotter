@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+# Plotter
+Plotting Graphs from TXT Files
+![Plotter](https://github.com/bikashtudu/Plotter/blob/master/images/plottericon.png?raw=true "Plotter")
 
-You can use the [editor on GitHub](https://github.com/bikashtudu/Plotter/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Plotter is a QT based application written in C++ which helps in analyzing the data from txt file which contains data in any format with a separator or many separators(such as , . - \t) between two data(cell) and the rows are described on an unique line.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Screenshot of UI
+![PlotterSnapShot](https://github.com/bikashtudu/Plotter/blob/master/images/PlotterSnapShot.jpg?raw=true "ScreenShot of UI")
 
-### Markdown
+### Instructions:
+1. Open a File
+      - Select File->Open File 
+         **or**
+       - Click on ![OpenFile](https://github.com/bikashtudu/Plotter/blob/master/images/OpenFile.jpg?raw=true "OpenFile") and select the data file.
+       
+   File box shows the location of the file that have been selected.
+   Status box will says **DATA COLLECTED** if all the data is collected properly(including the separator symbols).
+   
+   
+2. If the data shown in the table are all numbers than skip this step but if table contains *symbols*(from the txt files) than put all those separators in the separarator box and click **REFRESH Button** and check if the data in table is proper(ie, numbers).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    Status box will says **REFRESH DONE**
+    
+      **Notes:**
+      - If the data have number are negative or have floating point **-** or **.** symbols than put **'- '**(for -) and **'. '** in the separator box.
+      - Refresh Button can be used anytime to refresh the data from the txt file or to make use separators. 
 
-```markdown
-Syntax highlighted code block
+3. All the data in the cells of table are numeric(including intergers and floating both), now click on **Plot Button** to plot the graph.
+      Graph will be plotted.
+      Status box will says **DATA PLOTTED**
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bikashtudu/Plotter/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+4. To save the plotted graph
+      - Select File-> Save Image
+         **or**
+      - Click on ![SaveImage](https://github.com/bikashtudu/Plotter/blob/master/images/saveimage-1.png?raw=true "Save Image") and open the location to save the image.
+      - Graph of SampleData/data.txt with separator '- ', '/', '',',','.' 
+      
+      ![SampleGraph](https://github.com/bikashtudu/Plotter/blob/master/images/Graph.png?raw=true "Graph")  
